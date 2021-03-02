@@ -7,36 +7,32 @@
     </head>
     <body>
         <header>
-            <div id="head1">
-                <a href="#">About</a>
-                <a href="#">Store</a>
-            </div>
-            <div id="head2">
-                <a href="https://gmail.com">Gmail</a>
-                <a href="https://www.google.com/imghp">Images</a>
-                <a href="https://www.google.com/intl/en/about/products">Apps</a>
-                <button onclick="window.location.href='https://accounts.google.com';">Sign in</button>
-            </div>
+            <ul>
+                <li><a href="#" class="left">About</a></li>
+                <li><a href="#" class="left">Store</a></li>
+                <li><a href="https://gmail.com" class="right">Gmail</a></li>
+                <li><a href="https://www.google.com/imghp" class="right">Images</a></li>
+                <li><a href="https://www.google.com/intl/en/about/products" class="right">Apps</a></li>
+                <li><button onclick="window.location.href='https://accounts.google.com';" id="login" class="right">Sign in</button></li>
+            </ul>
         </header>
-        <div id="main">
-            <img src="images/googlelogo_color_272x92dp.png" alt="Google logo">
-            <form action="https://google.com/search" id="search">
-                <input type="text" id="searchbox" name="q" title="Search">
-                <button type="submit" id="">Google Search</button>
-                <button type="submit">I'm Feeling Lucky</button>
+        <main>
+            <img src="images/googlelogo_color_272x92dp.png" alt="Google logo" id="logo">
+            <form action="https://google.com/search" id="search-form">
+                <input type="text" name="q" title="Search" id="searchbox">
+                <button type="submit" id="b1">Google Search</button>
+                <button type="submit" id="b2">I'm Feeling Lucky</button>
             </form>
-        </div>
+        </main>
         <footer>
-            <div id="foot1">
-                <a href="#">Advertising</a>
-                <a href="#">Business</a>
-                <a href="#">How Search works</a>
-            </div>
-            <div id="foot2">
-                <a href="#">Privacy</a>
-                <a href="#">Terms</a>
-                <a href="#">Settings</a>
-            </div>
+            <ul>
+                <li><a href="#" class="left">Advertising</a></li>
+                <li><a href="#" class="left">Business</a></li>
+                <li><a href="#" class="left">How Search works</a></li>
+                <li><a href="#" class="right">Privacy</a></li>
+                <li><a href="#" class="right">Terms</a></li>
+                <li><a href="#" class="right">Settings</a></li>
+            </ul>
         </footer>
     </body>
 </html>
